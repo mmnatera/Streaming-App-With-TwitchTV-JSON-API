@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: pink;
+  font-family: sans-serif;
+}
+
+.content {
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: solid pink;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+img {
+  height: 30px;
+  border-radius: 10%;
+}
+
+img,
+.title,
+.status {
+  display:inline-block;
+}
+
+.title,
+.status {
+  margin-left: 10px;
+  
+}
+
+.title {
+  width: 200px;
+}
+
+.container {
+  width: 450px;
+  margin: 20px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px grey;
+  color: pink;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 1px 50px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 2px solid green;
+  border-top: 2px solid green;
+}
+
+.buttons {
+  text-align: center;
+  width: 100px;
+  padding: 20px;
+}
+
+.buttons:hover,
+a:hover {
+  color: grey;
+}
+
+.fa-times {
+  color: grey;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-exclamation {
+  color: red;
+  padding-right: 3px;
+}
+
+.handle {
+  display: none;
+}
+
+/*footer*/
+
+p {
+  font-size: 10px;
+}
+
+.icons {
+  width: 150px;
+  margin: 0 auto 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  text-align: center;
+}
+
+.footer i:hover,
+.footer a:hover {
+  color: green;
+}
